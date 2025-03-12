@@ -1,0 +1,171 @@
+/* Скидання відступів браузера та базові стилі */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Шапка сайту (необов’язково) */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ========== ГОЛОВНИЙ ЕКРАН З ПЕРЕЛІКОМ ПАЛІТР ========== */
+.palette-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 10px;
+  margin: 10px auto; 
+  max-width: 1200px; /* Ширина, щоб сітка не розтягувалася на весь екран (за бажанням) */
+  flex-wrap: wrap;
+ 
+}
+.palette {
+  border: 5px solid #ddd;
+  border-radius: 5px;
+  margin: 50px;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: center;
+  width: 250px;
+}
+.palette:hover {
+  transform: scale(1.05);
+}
+.palette h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+.color-swatch {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* ========== ЕКРАН З КОЛЬОРАМИ ОБРАНОЇ ПАЛІТРИ ========== */
+
+/* Верхня чорна панель */
+.color-view-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Кнопка Back (ліворуч) */
+.color-back-button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.color-back-button:hover {
+  text-decoration: underline;
+}
+
+/* Вибір формату копіювання (по центру) */
+.format-selector {
+  font-size: 16px;
+}
+.format-selector select {
+  margin-left: 5px;
+  padding: 3px 5px;
+  font-size: 14px;
+}
+
+/* Тумблер звуку (праворуч) */
+.sound-toggle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+.sound-toggle input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Контейнер для кольорів обраної палітри */
+.color-boxes {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, auto);
+  gap: 10px;
+  margin: 10px auto; 
+  max-width: 1200px; /* Ширина, щоб сітка не розтягувалася на весь екран (за бажанням) */
+}
+
+/* Окремий блок кольору */
+.color-box {
+  width: 100%;
+  height: 120px;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.color-box:hover {
+  transform: scale(1.05);
+}
+
+/* Текст із кодом (або назвою) кольору */
+.color-box span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: rgba(255,255,255,0.7);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.color-box span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: rgba(255,255,255,0.7);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+/* Нижній підпис з інформацією про палітру */
+.palette-footer {
+  text-align: right;
+  font-size: 14px;
+  color: #777;
+  padding: 10px;
+}
+
+/* ========== ПОВНОЕКРАННИЙ ОВЕРЛЕЙ ========== */
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none; /* Прихований за замовчуванням */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  color: #fff;
+  font-size: 30px;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
