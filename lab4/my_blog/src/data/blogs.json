@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Optimizing Your Workflow with DevOps",
+    "category": "Development",
+    "date": "2025-03-28",
+    "content": "Explore DevOps practices and tools that help streamline development processes, improve collaboration, and automate tasks."
+  },
+  {
+    "id": 2,
+    "title": "Introduction to Cloud Computing",
+    "category": "Cloud Technology",
+    "date": "2025-03-15",
+    "content": "Learn the basics of cloud computing, including types of clouds, services, and how cloud infrastructure can benefit your projects."
+  },
+  {
+    "id": 3,
+    "title": "Microservices Architecture: Best Practices",
+    "category": "Software Engineering",
+    "date": "2025-03-23",
+    "content": "Dive into microservices architecture and its benefits in building scalable, maintainable, and fault-tolerant systems."
+  },
+  {
+    "id": 4,
+    "title": "Agile Methodology: A Beginner's Guide",
+    "category": "Product",
+    "date": "2025-04-01",
+    "content": "Understand the principles of Agile methodology, how to implement Scrum or Kanban, and the benefits for product development teams."
+  },
+  {
+    "id": 5,
+    "title": "Building Scalable Web Applications",
+    "category": "Development",
+    "date": "2025-03-18",
+    "content": "Learn how to design and develop web applications that can handle increased traffic while maintaining high performance."
+  },
+  {
+    "id": 6,
+    "title": "Cross-Platform Mobile Development with Flutter",
+    "category": "Mobile Development",
+    "date": "2025-04-10",
+    "content": "Discover how Flutter enables developers to build high-performance, natively compiled applications for mobile, web, and desktop from a single codebase."
+  },
+  {
+    "id": 7,
+    "title": "Top Python Libraries for Data Science",
+    "category": "Data Science",
+    "date": "2025-04-03",
+    "content": "Explore the top Python libraries for data analysis, machine learning, and data visualization, and how they can enhance your data science projects."
+  },
+  {
+    "id": 8,
+    "title": "Podcast: How AI is Changing the Tech Industry",
+    "category": "Artificial Intelligence",
+    "date": "2025-03-30",
+    "content": "Listen to experts discuss how AI technologies are revolutionizing the tech landscape and the future of AI in various industries."
+  },
+  {
+    "id": 9,
+    "title": "Improving Security in IT Projects",
+    "category": "Cybersecurity",
+    "date": "2025-03-20",
+    "content": "Explore strategies and tools for improving security in your IT projects, including data protection and network security."
+  },
+  {
+    "id": 10,
+    "title": "Technology Trends in 2025",
+    "category": "Technology Trends",
+    "date": "2025-04-05",
+    "content": "Overview of key technology trends that will shape the industry in 2025, from quantum computing to virtual reality."
+  },
+  {
+    "id": 11,
+    "title": "Project Management Models for Teams",
+    "category": "Project Management",
+    "date": "2025-04-07",
+    "content": "Discussion on various project management models that enhance team efficiency and reduce risks."
+  },
+  {
+    "id": 12,
+    "title": "Learning Docker for Development",
+    "category": "Development",
+    "date": "2025-03-25",
+    "content": "Get introduced to Docker and how it can be used for development, testing, and deploying applications in containers."
+  },
+  {
+    "id": 13,
+    "title": "Foundations of UX Education for Developers",
+    "category": "Design",
+    "date": "2025-03-12",
+    "content": "Learn the principles of UX design and how these insights can help developers create more user-friendly and effective applications."
+  },
+  {
+    "id": 14,
+    "title": "Integrating AI with Your Development Workflow",
+    "category": "Artificial Intelligence",
+    "date": "2025-04-08",
+    "content": "Learn how AI can enhance your development workflow, from code generation to testing and deployment."
+  },
+  {
+    "id": 15,
+    "title": "Understanding Blockchain for Developers",
+    "category": "Software Engineering",
+    "date": "2025-04-02",
+    "content": "Get introduced to blockchain technology, how it works, and how developers can leverage it in creating decentralized applications."
+  }
+]

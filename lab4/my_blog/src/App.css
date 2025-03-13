@@ -1,0 +1,129 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+.header {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+input, select {
+  padding: 12px;
+  margin: 10px 5px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #ffffff; /* White background for inputs */
+  color: #333; /* Dark grey text */
+}
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-item {
+  padding: 20px;
+  background: #ffffff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for a soft look */
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-item:hover {
+  transform: translateY(-5px);
+}
+
+.blog-item h2 a {
+  text-decoration: none;
+  color: #00796b; /* Teal for links */
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.blog-item p {
+  color: #666; /* Light grey for paragraph text */
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #00bcd4; 
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.pagination button:hover {
+  background: #00838f; 
+}
+
+.filter-button, .back-link {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #00bcd4; 
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-button:hover, .back-link:hover {
+  background-color: #00838f; 
+}
+
+.no-underline {
+  text-decoration: none;
+  color: #00796b;
+}
+
+/* Мобільна версія */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+  
+  .blog-list {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  
+  input, select {
+    width: 100%;
+    max-width: none;
+  }
+}

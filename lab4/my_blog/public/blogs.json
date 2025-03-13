@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "UX review presentations",
+    "category": "Design",
+    "date": "2025-03-01",
+    "content": "How do you create compelling presentations that impress your colleagues and managers? Learn the best practices."
+  },
+  {
+    "id": 2,
+    "title": "Migrating to Linear 101",
+    "category": "Product",
+    "date": "2025-03-02",
+    "content": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started."
+  },
+  {
+    "id": 3,
+    "title": "Building your API stack",
+    "category": "Software Engineering",
+    "date": "2025-03-03",
+    "content": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them."
+  },
+  {
+    "id": 4,
+    "title": "PM mental models",
+    "category": "Product",
+    "date": "2025-03-04",
+    "content": "Mental models are simple expressions of complex processes or relationships."
+  },
+  {
+    "id": 5,
+    "title": "What is wireframing?",
+    "category": "Design",
+    "date": "2025-03-05",
+    "content": "Introduction to wireframing and its principles. Learn the best tools in the industry."
+  },
+  {
+    "id": 6,
+    "title": "How collaboration makes us better designers",
+    "category": "Design",
+    "date": "2025-03-06",
+    "content": "Collaboration can make our teams stronger and our individual designs better."
+  },
+  {
+    "id": 7,
+    "title": "Our top 10 Javascript frameworks to use",
+    "category": "Product",
+    "date": "2025-03-07",
+    "content": "Discover new frameworks for frontend and backend development."
+  },
+  {
+    "id": 8,
+    "title": "Podcast: Creating a better CX Community",
+    "category": "Customer Success",
+    "date": "2025-03-08",
+    "content": "Starting a community is no easy task. Where do you begin and how do you get people to interact?"
+  }
+]
