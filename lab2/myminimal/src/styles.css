@@ -1,0 +1,236 @@
+/* Загальні стилі */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #111;
+  background-color: #f7f7f7;
+}
+
+/* Контейнер */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Шапка сайту */
+.header {
+  background-color: #0f172a; /* Темний фон */
+  color: #fff;
+  position: relative;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.logo a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #38bdf8;
+}
+
+/* Бургер-меню */
+.burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger span {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+}
+
+/* Герой-секція */
+.hero {
+  background-color: #1e293b; /* Трохи світліший темний фон */
+  color: #fff;
+  padding: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.btn-yellow {
+  background-color: #38bdf8;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Портфоліо */
+.portfolio-section {
+  padding: 60px 0;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-item h3 {
+  margin: 15px 0;
+  padding: 0 10px;
+}
+
+/* Загальний банер для підзаголовка сторінок (About, Contact) */
+.page-banner {
+  background-color: #1e293b;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-banner h1 {
+  font-size: 2rem;
+}
+
+/* Контактна форма */
+.contact-section {
+  padding: 40px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form .btn {
+  background-color: #0f172a;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Підвал */
+.footer {
+  background-color: #0f172a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: #0f172a;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 20px;
+  }
+
+  .nav ul.show {
+    display: flex;
+  }
+
+  .burger {
+    display: flex;
+  }
+}
